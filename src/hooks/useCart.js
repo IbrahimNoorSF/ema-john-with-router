@@ -19,7 +19,7 @@ const useCart = product => {
             setCart(storedCart);
         }
     }, [product])
-    return [cart];
+    return [cart, setCart];
 }
 
 export default useCart;
